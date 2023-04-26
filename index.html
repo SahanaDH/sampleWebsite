@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstWebsiteLooksLikeThis</title>
+    <link href="style.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+  
+
+     
+<!-- the menu option -->
+    
+    <div style="font-weight: bold; font-size: 18px; background-color: black; color:white; padding: 20px 20px; " >
+    <div onclick="w3_open()">☰Menu</div>
+    <!-- <div class="mail-symb"><button>Mail</button></div>
+                <div class="gsme-symb">My game</div> -->
+
+</div>
+
+<!-- hidden (can be opened on clicking menu) -->
+<!-- <nav class="w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" > -->
+    <div id="mySidebar" style="display:none;z-index:2;min-width:300px">
+
+        <ul>
+            <li > <a href="javascript:void(0)" onclick="w3_close()" class="closeBtn" >Close Menu</a></li>
+            <li > <a href="#game" class="gameBtn"  >This Page</a></li>
+            <li > <a href="#foot-ex"  class="aboutBtn" >About</a></li>
+        </ul>
+    </div>
+    
+<!-- </nav> -->
+<div class="mains">
+    <h1 style="display: flex; margin: auto; ">Sample HTML Page</h1>
+</div>
+<p id="main-para" style="color: brown; font-size: 15px">With sample html code, to create a website with some
+    examples.</p>
+
+
+
+    <!-- <h2>Introduction</h2>
+    <p>Introduction to The page</p> -->
+
+    <div class="container">
+
+        <div class="heading-ex">
+            <h3>Headings</h3>
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+        </div>
+
+        <div class="list-ex">
+            <h3>List</h3>
+
+            <ul>
+                <p id="list-title">Unordered list</p>
+                <li>Hi</li>
+                <li>Hello</li>
+                <li>Welcome</li>
+            </ul>
+            <ol>
+                <p id="list-title">Ordered list</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScipt</li>
+            </ol>
+        </div>
+        <div class="text-ex">
+            <h3>Text</h3>
+
+            <b> - Bold text
+                <strong> - Important text</strong>
+                <br>
+                <i> - Italic text</i>
+                <br>
+                <em> - Emphasized text</em>
+                <br>
+                <mark> - Marked text</mark>
+                <br>
+                <small> - Small text</small>
+                <br>
+                <del> - Deleted text</del>
+                <br>
+                <ins> - Inserted text</ins>
+                <br>
+                <sub> - Subscript text</sub>
+                <br>
+                <sup> - Superscript text</sup>
+        </div>
+
+
+        <div class="form-ex">
+            <h3>simple Form</h3>
+
+            <input type="text" name="name" placeholder="enter name">
+            <br>
+            <br>
+
+            <input type="password" name="name" placeholder="enter password">
+
+            <br><br>
+            <button type="click" onclick="">Submit</button>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="paragraprh-ex">
+            <h3>Paragraph</h3>
+
+            <p>More paragraph <strong>with strong</strong> letters</p>
+            <p class="css-class">This is the text with css class selector.</p>
+<p id="great-id">Specificity: CSS styles applied to an id have a higher specificity than those applied to a class. This means that if an element has both an id and a class, styles applied to the id will override styles applied to the class</p>
+        </div>
+        <!-- <div class="image-ex">
+            <h3>Images</h3>
+
+            <img src="images/htmlSymbol.png" alt="This is HTML symbol image">
+
+        </div> -->
+
+
+
+        <div class="link-ex">
+            <h3>Link</h3>
+
+
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+                target="_blank" class="link-text">Click this to navigate to other page</a>
+        </div>
+
+
+        <div class="table-ex">
+            <h3>Table</h3>
+
+            <table>
+                <tbody>
+                    <tr style="background-color: beige;">
+                        <th>Sl.No</th>
+                        <th>Number</th>
+                        <th>Square</th>
+                        <th>Cube</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>27</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="button-ex">
+            <h3>Buttons</h3>
+
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"><button>Button
+                    with link</button></a>
+            <br>
+            <button>sampleButton</button>
+        </div>
+
+
+    </div>
+
+         <!-- <div class="image-ex">
+            <h3>Images</h3>
+
+            <img src="images/htmlSymbol.png" alt="This is HTML symbol image">
+
+        </div> -->
+
+        <!-- <form action="process-form.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name"><br>
+        <input type="email" name="email" placeholder="Enter your email"><br>
+        <button type="submit" onclick="window.location.href='thank-you.html'">Submit</button>
+      </form> -->
+
+
+
+    
+
+   
+<!-- <footer>
+    <h3>FOOTER</h3>
+    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+        congue gravida diam non fringilla.</p>
+    <p>Powered by <a href="someLinks" target="_blank">This.links</a></p>
+
+</footer> -->
+<h1 id="game-Head">Game</h1>
+<div class="iframe-ex">
+<iframe
+src="https://juego-build-server.s3.amazonaws.com/htmlBuilds/62a1a2725363a3dac03165a7e1573e95/index.html"
+width="800" height="600"></iframe>
+</div>
+
+<footer id="foot-ex">
+    <h3>Get In Touch</h3>
+    <p>Email or call fro more information</p>
+    <p>Email: <strong>contact@testemailID.test</strong></p>
+    <p>Phone:
+        <a href="">
+            <strong>234567123</strong>
+        </a>
+    </p>
+</footer>
+<script src="index.js">
+   
+</script>
+
+</body>
+
+</html>

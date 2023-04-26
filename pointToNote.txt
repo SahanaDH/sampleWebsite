@@ -1,0 +1,19 @@
+1. Cascading styles Order
+    1. Inline style (inside an HTML element)
+    2. External and internal style sheets (in the head section)
+    3. Browser default
+
+2. Specificity: CSS styles applied to an "id" have a higher specificity than those applied to a "class". This means that if an element has both an "id" and a "class", styles applied to the "id" will override styles applied to the "class".
+
+3. some of the most common units of measurement used in web design are:
+Pixels (px): This is a fixed unit of measurement that refers to the number of pixels on the screen.
+
+Percentages (%): This is a relative unit of measurement that is based on the size of the parent element. 
+
+Em: This is a relative unit of measurement that is based on the font size of the parent element. It is commonly used for defining font sizes and other measurements in web design.
+
+Rem: This is a relative unit of measurement that is based on the font size of the root element (typically the <html> element). It is commonly used for defining font sizes and other measurements in responsive web design.
+
+Viewport units (vh and vw): These are relative units of measurement that are based on the size of the viewport (the visible area of the browser window). They are commonly used for defining widths, heights, and other measurements in responsive web design.
+
+4.Only one element can have a particular "id". On the other hand, "class" can be used on multiple elements within the same HTML documen
